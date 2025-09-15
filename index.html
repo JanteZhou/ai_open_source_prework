@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini MMORPG Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    
+    <!-- Mini-map -->
+    <div id="miniMap">
+        <canvas id="miniMapCanvas"></canvas>
+    </div>
+    
+    <!-- Chat buttons -->
+    <div id="chatButtons">
+        <button class="chat-btn" data-message="Hello!">👋 Hello</button>
+        <button class="chat-btn" data-message="Nice to meet you!">😊 Nice to meet you</button>
+        <button class="chat-btn" data-message="Follow me!">🚶 Follow me</button>
+        <button class="chat-btn" data-message="Good game!">🎮 Good game</button>
+        <button class="chat-btn" data-message="See you later!">👋 See you later</button>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
